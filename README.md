@@ -16,9 +16,7 @@ PhysioNet 2021 Challenge ECG 데이터를 기반으로 1D ResNet 모델을 이�
 - Threshold 전략:  
   - Fixed threshold (0.5)  
   - Variable threshold (클래스별 AUROC 기반 최적화, Youden index)  
-- 불균형 데이터 대응:  
-  - Class-wise threshold 조정  
-  - Mixup augmentation (특히 minority class 중심)  
+
 
 
 
@@ -42,7 +40,6 @@ PhysioNet 2021 Challenge ECG 데이터를 기반으로 1D ResNet 모델을 이�
 - train_model, train_model_2: ECG 데이터 학습 함수
 - run_model: 학습된 모델 로드 후 테스트 데이터 예측
 - generate_X_rawecg, generate_X_dwt, generate_X_pan_tompkins: 리드 수/전처리별 입력 생성기
-- flow_mixup: minority class 중심의 데이터 증강
 - Keras 기반 학습/로그 저장/threshold 계산 callback 포함
 
 ### helper_code.py
