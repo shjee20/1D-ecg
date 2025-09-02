@@ -50,7 +50,6 @@ PhysioNet 2021 Challenge ECG 데이터를 기반으로 1D ResNet 모델을 이�
 - 신호 처리: bandpass_filter, perform_discrete_wavelet_transform, pan_tompkins
 - 메트릭: CustomF1WithClassThresholds, DynamicF1
 - 콜백: ROCThresholdExcelCallback, NaNLossRecoveryCallback
-- Dataset 클래스 (PyTorch 버전도 포함)
 
 ### train.ipynb
 - PhysioNet 데이터 로딩 및 전처리
