@@ -67,7 +67,8 @@ pip install numpy pandas scikit-learn seaborn matplotlib tensorflow tensorflow-a
 ```
 
 ### 2. 데이터 준비
-- PhysioNet CinC 2021 ECG 데이터 다운로드  
+- PhysioNet CinC 2021 ECG 데이터 다운로드
+' https://moody-challenge.physionet.org/2021/ '
 - .mat, .hea 파일을 프로젝트 데이터 폴더에 배치
 
 ### 3. 학습 실행
