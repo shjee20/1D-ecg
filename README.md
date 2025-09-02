@@ -14,7 +14,7 @@ PhysioNet 2021 Challenge ECG 데이터를 기반으로 1D ResNet 모델을 이�
   - DWT (Discrete Wavelet Transform, baseline drift 제거)  
 - 리드 수 비교: 12, 6, 4, 3, 2 leads  
 - Threshold 전략:  
-  - Fixed threshold (0.5)  
+  - Fixed threshold (0.15)  
   - Variable threshold (클래스별 AUROC 기반 최적화, Youden index)  
 
 
